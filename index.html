@@ -1,57 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="HomePage.js"></script>
-	<link rel="stylesheet" type="text/css" href="HomePage.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="assets/js/HomePage.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link media="screen" rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<title>Jeremy Seto</title>
 </head>
 <body>
-<!-- 	<header class="page-header">
-		<div id="name">
-
-		</div>
-
-
-		<div id="nav_links">
-			<ul>
-				<li>
-					<a>About Me</a>
-				</li>
-				<li>
-					<a>Experience</a>
-				</li>
-				<li>
-					<a>Travel</a>
-				</li>
-				<li>
-					<a>Contact Me</a>
-				</li>
-
-			</ul>
-
-
-		<div>
-	</header> -->
-
 	<div class="content">
 		<!-- Header -->
 		<div class="header">
 			<h1>Jeremy Seto</h1>
-			About &nbsp; Contact Me &nbsp; Experience &nbsp; Projects
+			<a class="pageLinks" href="#aboutMe">About</a> &nbsp; <a class="pageLinks" href="#contactInfo">Contact Me</a>  &nbsp; <a class="pageLinks" href="#resume">Experience</a>  &nbsp; <a class="pageLinks" href="#projects">Projects</a>
 		</div>
-		<section class="center">
+		<section id="aboutMe" class="center">
 			<p>
 				<div class="profileImage">
-					<img src="profile.jpg">
+					<img src="assets/images/profile.jpg">
 				</div>
 			</p>
 			<p class="introduction">
 				Toronto based front-end developer and software engineer.
 			</p>
 		</section>
-		<section class="center">
+		<section id="contactInfo" class="center">
 			<div class="">
 				<div class="row">
 					<div class="col-sm-4">
@@ -75,7 +49,7 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="resume">
 			<div class="resumeItems">
 				<div class="row">
 					<div class="col-md-12">
@@ -191,14 +165,14 @@
 			</div>
 			<div class="row">
 				<div class="center">
-					<a class="btn btn-default btn-custom-2" target="_blank" href="Jeremy_Resume.pdf">
+					<a class="btn btn-default btn-custom-2" target="_blank" href="assets/Jeremy's Resume.pdf">
 						<i class="fa fa-cloud-download icon-before"></i>
 						Download Resume
 					</a>
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="projects">
 		</section>
 	</div>
 </body>

@@ -52,12 +52,25 @@ section{
 	text-align: center;
 }
 
+.h3Projects{
+	margin-top:5px;
+}
+
 .pageLinks{
 	color: inherit;
 }
 
 .resumeItems{
 	margin-left: 5%;
+}
+
+.projectItems{
+	margin-left: 5%;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
 }
 
 .introduction{
